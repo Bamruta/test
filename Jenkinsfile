@@ -6,11 +6,11 @@ agent any
 
 stages {
 
-stage ('instal httpd') {
+stage ('instal tree') {
 
   steps {
 
-        sh "sudo yum install httpd -y"
+        sh "sudo yum install tree -y"
 
 }
 }
