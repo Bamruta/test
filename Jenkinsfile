@@ -2,16 +2,16 @@ pipeline{
        
 agent any
 
-}
 
 stages {
 
-stage ('instal tree') {
+stage ('instal httpd') {
 
   steps {
 
-        sh "sudo yum install tree -y"
+        sh "sudo yum install httpd -y"
+  }
+}
 
 }
 }
-
